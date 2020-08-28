@@ -1,0 +1,1 @@
+owlstory	word, pos, root, gloss, translation, note
