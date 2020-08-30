@@ -5,9 +5,10 @@ from pathlib import Path
 import re
 
 def textManager():
+    st.sidebar.markdown("***")
     st.header("Text Manager")
 
-    tool_type = st.sidebar.radio("What would you like to do?", options = ["Add a document", "Remove a document"])
+    tool_type = st.sidebar.radio("What would you like to do?", options = ["Add a document"])
     if tool_type == "Add a document":
         document_creator()
     else:
@@ -30,11 +31,11 @@ def textManager():
 
 def document_creator():
     corpusfailed = False
-    documentName = st.text_area("Define Document Name", "")
-    addAttributes = st.text_area("Define Attributes", "")
-    documentText = st.text_area("Paste tab-separated vertical document here", "")
+    documentName = st.text_area("Define Text Name", "")
+    addAttributes = st.text_area("Define Text Attributes", "")
+    documentText = st.text_area("Paste tab-separated vertical text here", "")
     attributesToAdd = addAttributes
-    ccorpus = st.button("Create Document", )
+    ccorpus = st.button("Create Text", )
     if ccorpus:
         with st.spinner('Wait for it...'):
             try:
@@ -43,7 +44,7 @@ def document_creator():
             except:
                 corpusfailed = True
     if corpusfailed == True:
-        st.write("DOCUMENT NOT CREATED")
+        st.write("TEXT NOT CREATED")
 
 def addAttributesToConfig(documentName, attributesToAdd):
     config = "data/imported/config.txt"

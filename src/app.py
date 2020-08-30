@@ -2,14 +2,16 @@
 import streamlit as st
 import textManager
 import textViewer
+from PIL import Image
 
 
 def main():
-    page = st.sidebar.radio("Page", options=["Text Manager", "Text Viewer"], index=1)
+    image = Image.open('languageExplorer.png')
+    st.sidebar.image(image, width=305)
+    page = st.sidebar.radio("Tool", options=["Text Manager", "Text Viewer"], index=1)
     if page == "Text Manager":
         textManager.textManager()
     elif page == "Text Viewer":
         textViewer.textViewer()
-
 
 main()

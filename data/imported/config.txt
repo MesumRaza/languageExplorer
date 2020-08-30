@@ -1,1 +1,28 @@
-owlstory	word, pos, root, gloss, translation, note
+subtextof1 Corinthians	word, tag, lemma, gloss
+subtextof1 John	word, tag, lemma, gloss
+subtextof1 Peter	word, tag, lemma, gloss
+subtextof1 Thessalonians	word, tag, lemma, gloss
+subtextof1 Timothy	word, tag, lemma, gloss
+subtextof2 Corinthians	word, tag, lemma, gloss
+subtextof2 John	word, tag, lemma, gloss
+subtextof2 Peter	word, tag, lemma, gloss
+subtextof2 Thessalonians	word, tag, lemma, gloss
+subtextof2 Timothy	word, tag, lemma, gloss
+subtextof3 John	word, tag, lemma, gloss
+subtextofActs	word, tag, lemma, gloss
+subtextofColossians	word, tag, lemma, gloss
+subtextofEphesians	word, tag, lemma, gloss
+subtextofGalatians	word, tag, lemma, gloss
+subtextofHebrews	word, tag, lemma, gloss
+subtextofJames	word, tag, lemma, gloss
+subtextofJohn	word, tag, lemma, gloss
+subtextofJude	word, tag, lemma, gloss
+subtextofLuke	word, tag, lemma, gloss
+subtextofMark	word, tag, lemma, gloss
+subtextofMatthew	word, tag, lemma, gloss
+subtextofPhilemon	word, tag, lemma, gloss
+subtextofPhilippians	word, tag, lemma, gloss
+subtextofRevelation	word, tag, lemma, gloss
+subtextofRomans	word, tag, lemma, gloss
+subtextofTitus	word, tag, lemma, gloss
+welcome	word
