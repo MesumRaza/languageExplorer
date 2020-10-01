@@ -1,6 +1,8 @@
 # Language Explorer
 Language Explorer is a tool for exploring features of language, particularly in natural language documents. The idea is that in many documents, it's useful to view information about individual words and sentences. For instance, it can be useful to know the part of speech value of a word, or the root, or a gloss (if it's a translation), or synonyms, etc. Language Explorer provides a nice reading experience while exposing these attributes as a tooltip on each word.
 
+You can see a demo of this app [here](https://desolate-castle-10591.herokuapp.com/)
+
 ## Managing your documents
 Document management currently supports two features
 
